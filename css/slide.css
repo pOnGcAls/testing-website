@@ -1,0 +1,77 @@
+.left-content .carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.left-content .slider {
+    margin-bottom: 30px;
+    display: flex;
+    width: 800%;
+    transition: all 0.3s;
+}
+.left-content .banner {
+    flex-basis: 100%;
+    width: 100%;
+    align-items: center;
+    border-radius: 10px;
+    background: rebeccapurple;
+    overflow: hidden;
+}
+.left-content .banner img {
+    width: 100%;
+    height: 300px;
+}
+.left-content .banner .anime-detail {
+    display: flex;
+    align-items: center;
+    margin: 10px 20px 20px 20px;
+}
+.left-content .banner .anime-detail .left-side h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.left-content .banner .anime-detail .left-side p {
+    color: #d6cccc;
+    font-size: 13px;
+}
+.left-content .banner .anime-detail .right-side button {
+    width: 220px;
+    height: 70px;
+    border-radius: 60px;
+    border: 0;
+    font-size: 25px;
+}
+.left-content .controls .arrow {
+    position: absolute;
+    top: 35%;
+    cursor: pointer;
+}
+.left-content .controls .arrow.left {
+    left: 10px;
+}
+.left-content .controls .arrow.right {
+    right: 10px;
+}
+.left-content .controls .arrow img {
+    width: 40px;
+}
+.left-content .controls ul {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+}
+.left-content .controls ul li {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    margin: 10px;
+    background: #fff;
+}
+.left-content .controls ul li.selected {
+    background: rebeccapurple;
+    border: 2px solid rebeccapurple;
+}

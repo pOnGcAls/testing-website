@@ -1,0 +1,83 @@
+.estimated-schedule {
+    background: #040f13;
+    border-radius: 5px;
+    padding: 10px;
+}
+.estimated-schedule h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.estimated-schedule span {
+    color: #5a5a5a;
+    font-size: 20px;
+    font-weight: 300;
+}
+.date-sched {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.date-sched .box {
+    background: #5a5a5a;
+    height: 60px;
+    border-radius: 5px;
+    padding: 0 25px;
+    text-align: center;
+}
+.date-sched .box1 {
+    background: #5a5a5a;
+    height: 60px;
+    border-radius: 5px;
+    padding: 0 10px;
+    align-items: center;
+    display: flex;
+}
+.date-sched .box1 img {
+    width: 10px;
+}
+.date-sched .box .day {
+    color: #fff;
+    margin-top: 7px;
+    font-weight: 500;
+}
+.date-sched .box .date {
+    color: #2b2828;
+    font-size: 15px;
+}
+.updated-anime {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.time-update {
+    display: flex;
+    align-items: center;
+}
+.time-update .time {
+    color: #9e9696;
+    font-size: 20px;
+}
+.time-update .title {
+    color: #5a5a5a;
+    margin-left: 20px;
+}
+.epi {
+    display: flex;
+    align-items: center;
+    background: #302d2d;
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+.epi img {
+    width: 10px;
+    filter: invert(50%);
+    margin-right: 10px;
+}
+.epi p {
+    color: #fff;
+    font-size: 13px;
+}
